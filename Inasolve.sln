@@ -5,6 +5,16 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterAct", "InterAct\InterAct.csproj", "{9A99EBF6-CB2D-485C-B8E4-CEE0F1B6AB65}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Solutions", "Web Solutions", "{5BDEFF98-AE2B-4B78-9378-83D6F01EDA33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile Solutions", "Mobile Solutions", "{0E3AF678-D942-4F13-B2F3-CC318CEC897F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop Applications", "Desktop Applications", "{FF1BA9B8-70BC-4FCA-BD64-B7EDED14B6A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Brokers", "Service Brokers", "{F6BB1D14-8ACD-4319-9CD9-CC37C488149F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Server Scripts", "SQL Server Scripts", "{1E7017CE-97C4-4451-A8FF-83057B971C6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A99EBF6-CB2D-485C-B8E4-CEE0F1B6AB65} = {5BDEFF98-AE2B-4B78-9378-83D6F01EDA33}
 	EndGlobalSection
 EndGlobal
